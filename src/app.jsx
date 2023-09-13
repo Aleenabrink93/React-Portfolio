@@ -15,9 +15,9 @@ const App = () => {
                 return <About/>;
             case 'portfolio':
                 return <Portfolio/>;
-            case 'Contact':
+            case 'contact':
                 return <Contact/>;
-            case 'Resume':
+            case 'resume':
                 return <Resume/>;
             default:
                 return null;
