@@ -1,0 +1,17 @@
+.center {
+	display: flex;
+	justify-content: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    img {
+        max-width: 100% !important;
+    } 
+}
+@media screen and (max-width: 817px) {
+    img {
+        max-width: 100% !important;
+    }
+    
+}

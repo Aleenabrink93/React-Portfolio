@@ -5,7 +5,7 @@ import avatar from '../../assets/avatar.png'
 const About = () => {
   return (
     <section>
-    <h1>About Me</h1>
+    <h1 className='center'>About Me</h1>
     <div>
         <img src={avatar} alt="my avatar"/>
     </div>

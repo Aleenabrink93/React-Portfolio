@@ -5,7 +5,7 @@ import linkedin from '../../assets/linkedin.png'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='center'>
         <a href = 'https://github.com/Aleenabrink93'
         target = '_blank'
         rel ='noopener noreferrer'>
