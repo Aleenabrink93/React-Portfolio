@@ -7,7 +7,7 @@ const Header = (props) => {
   return (
     <header>
         <div className = 'header'> 
-            <h1>Aleena Brinkerhoff</h1>
+            <h1>ALEENA BRINKERHOFF</h1>
             <Navbar currentTab={currentTab} setCurrentTab={setCurrentTab}>
             </Navbar>
         </div>
