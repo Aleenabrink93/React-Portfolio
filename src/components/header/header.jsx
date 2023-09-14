@@ -1,17 +1,15 @@
 import React from 'react'
-import Nav from '../nav/nav'
+import Navbar from '../nav/nav'
 import './header.css'
 
 const Header = (props) => {
     const {currentTab,setCurrentTab} = props
   return (
     <header>
-        <div>
+        <div className = 'header'> 
             <h1>Aleena Brinkerhoff</h1>
-        </div>
-        <div>
-            <Nav currentTab={currentTab} setCurrentTab={setCurrentTab}>
-            </Nav>
+            <Navbar currentTab={currentTab} setCurrentTab={setCurrentTab}>
+            </Navbar>
         </div>
     </header>
   )

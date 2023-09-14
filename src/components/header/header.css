@@ -1,0 +1,24 @@
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul{
+  list-style: none; 
+}
+
+nav a:hover {
+    cursor: pointer !important
+}
+
+@media screen and (max-width: 817px) {
+    .header{
+        display:block;
+    }
+    h1 {
+        margin: auto auto;
+        text-align: center;
+    }
+}
