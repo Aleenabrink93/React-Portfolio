@@ -6,9 +6,9 @@ import Button from 'react-bootstrap/Button';
 const Resume = () => {
   return (
     <section className='center'>
-    <div>
+    <div className='cv'>
         <img src={resume} alt="resume" />
-        <Button variant="outline-warning" className='center'>
+        <Button variant="outline-warning" className='download'>
       <a href = {require('../../assets/CV_AleenaBrinkerhoff.pdf')} download>
         <h3>Download</h3>
       </a>

@@ -4,14 +4,23 @@
     justify-items: center;
 }
 
+.download {
+    display: block;
+    margin: 10px auto;
+}
+
+.cv {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 980px) {
     img {
-        max-width: 100% !important;
+        width: 100%;
     } 
 }
 @media screen and (max-width: 817px) {
     img {
-        max-width: 100% !important;
+        max-width: 100%;
     }
     
 }
