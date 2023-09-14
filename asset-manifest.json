@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.dc7cdf36.css",
+    "main.js": "/React-Portfolio/static/js/main.c1083f5f.js",
+    "static/media/gigs.jpeg": "/React-Portfolio/static/media/gigs.fc11d4effd04ba5f9edb.jpeg",
+    "static/media/songScope.png": "/React-Portfolio/static/media/songScope.4c499f7a20d6b0b8dc37.png",
+    "static/media/resume.png": "/React-Portfolio/static/media/resume.ad4fd6528f86915b87e6.png",
+    "static/media/avatar.png": "/React-Portfolio/static/media/avatar.4e71087aeafdf8dd4115.png",
+    "static/media/noteTaker.png": "/React-Portfolio/static/media/noteTaker.5702703300f04ef8619f.png",
+    "static/media/weatherdashboard.png": "/React-Portfolio/static/media/weatherdashboard.a661ae931325f7645f27.png",
+    "static/media/CodeQuiz.png": "/React-Portfolio/static/media/CodeQuiz.530d19a406e977484a7a.png",
+    "static/media/WorkDayScheduler.png": "/React-Portfolio/static/media/WorkDayScheduler.d1541a7b3eedbf2e697e.png",
+    "static/media/CV_AleenaBrinkerhoff.pdf": "/React-Portfolio/static/media/CV_AleenaBrinkerhoff.ae50c2a775ff06275467.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.dc7cdf36.css.map": "/React-Portfolio/static/css/main.dc7cdf36.css.map",
+    "main.c1083f5f.js.map": "/React-Portfolio/static/js/main.c1083f5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc7cdf36.css",
+    "static/js/main.c1083f5f.js"
+  ]
+}
