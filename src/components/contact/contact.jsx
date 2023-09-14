@@ -51,7 +51,7 @@ const Contact = () => {
       <div className="center">
 				<h1>Contact Me</h1>
 			</div>
-			<div>
+			<div className='center contact'>
 				<form id="contact-form">
 					<div> 
 						<label htmlFor="Name">Name:</label>

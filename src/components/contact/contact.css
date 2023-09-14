@@ -1,10 +1,11 @@
 .center {
-	display: flex;
-	justify-content: center;
-    
-}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
-form {
+.form {
 	width: 40%;
 }
 
@@ -22,7 +23,7 @@ input:focus {
 }
 
 textarea {
-	width: 600px;
+	width: 100%;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
@@ -32,6 +33,9 @@ textarea {
     form {
         width: 100%;
     }
+    input {
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 817px) {
@@ -39,11 +43,11 @@ textarea {
         width: 100%;
     }
     input {
-		width: 350px;
+		width: 100%;
 	}
 
 	textarea {
-		width: 350px;
+		width: 100%;
 		height: 120px;
 		border: 3px solid #cccccc;
 		padding: 5px;
