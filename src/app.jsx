@@ -24,6 +24,7 @@ const App = () => {
     }
 };
   return (
+    <section>
     <div>
        <div>
             <Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
@@ -31,10 +32,11 @@ const App = () => {
        <div>
             <main>{renderTab()}</main>
        </div>
-       <div>
-            <Footer/>
-       </div>
     </div>
+    <div>
+            <Footer/>
+    </div>
+    </section>
   )
 };
 
