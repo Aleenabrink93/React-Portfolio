@@ -1,0 +1,42 @@
+.navActive{
+    background-color: violet;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+nav li {
+    text-decoration: none;
+    list-style: none;
+    margin: 30px; 
+    padding: 15px
+}
+
+
+
+@media screen and (max-width: 817px) {
+    nav ul{
+        display: block;
+        margin: auto auto;
+        text-align: center;
+        padding: 0px;
+    }
+    li.mx-2 {
+        margin: 2px;
+    }
+    nav li {
+        margin: 3px
+    }
+
+}
