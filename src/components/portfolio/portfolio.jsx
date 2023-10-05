@@ -8,6 +8,7 @@ import weatherDashboard from "../../assets/projects/weatherdashboard.png";
 import codeQuiz from "../../assets/projects/CodeQuiz.png";
 import noteTaker from "../../assets/projects/noteTaker.png";
 import songScope from "../../assets/projects/songScope.png";
+import GiftLab from "../../assets/projects/GiftLab.png";
 
 const projects = [
   {
@@ -24,7 +25,8 @@ const projects = [
     title: "Weather Dashboard",
     languages: "html, css, javascript",
     image: weatherDashboard,
-    description: "Allows you to search for the weather of any city in the world",
+    description:
+      "Allows you to search for the weather of any city in the world",
     repo: "https://github.com/Aleenabrink93/WeatherDashboard",
     live: "https://aleenabrink93.github.io/WeatherDashboard/",
   },
@@ -58,11 +60,21 @@ const projects = [
   {
     id: 5,
     title: "SongScope",
-    languages: "html, css, javascript, express.js, sequelize, handlebars, passport ",
+    languages:
+      "html, css, javascript, express.js, sequelize, handlebars, passport ",
     image: songScope,
     description: "Allows you to share reviews on your favourite songs",
     repo: "https://github.com/CHawsCoding/Song-Scope",
     live: "https://mysterious-savannah-74622-17da87c641f8.herokuapp.com/",
+  },
+  {
+    id: 6,
+    title: "GiftLab",
+    languages: "MERN STACK",
+    image: GiftLab,
+    description: "Online gift shpping website",
+    repo: "https://github.com/Lishakuinkel/Giftlab",
+    live: "https://giftlab-123-610fac927377.herokuapp.com/",
   },
 ];
 
